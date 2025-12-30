@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Website</title>
+    <style>
+        /* Simple CSS to make it look modern */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #f4f4f9;
+        }
+        header {
+            text-align: center;
+            padding: 2rem 0;
+            background: #24292e;
+            color: white;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        section {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .btn {
+            display: inline-block;
+            background: #2da44e;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 1rem;
+        }
+        .btn:hover {
+            background: #2c974b;
+        }
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>LaTeX Workshop 26, 27, and 28 January 2026</h1>
+        <p>Laboratory of Physics of Experimental Techniques and its Applications</p>
+        <p>Faculty of Sciences, University of Medea, Algeria</p>
+    </header>
+
+    <section>
+        <h2>About This Workshop</h2>
+            <div class="venue-info">
+                <p>📅 <strong>Date:</strong> 26, 27, and 28 January 2026</p>
+                <p>📍 <strong>Venue:</strong> Medical Science Building</p>
+                <p>🏛️ <strong>Location:</strong> University of Médéa (Main University Campus)</p>
+                <a href="https://maps.app.goo.gl/SNwG4GETdmwrAqRt5" class="map-link" target="_blank">📍 View on Google Maps</a>
+            </div>
+
+        <h3>✅ Participant Checklist</h3>
+        <div class="checklist-box">
+            <p>Please ensure you have completed the following before the first session:</p>
+            <div class="checklist-item">
+                <input type="checkbox"> <span><strong>Bring your laptop</strong> (and your charger!)</span>
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox"> <span><strong>Set up your environment:</strong> Either an Overleaf account OR a local TeX distribution installed (see below).</span>
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox"> <span><strong>Pre-download large files:</strong> If installing locally, finish the download (~5GB) at home, as download and installation times are long.</span>
+            </div>
+        </div>
+
+    </section>
+    <hr>
+    <section>
+
+        <h3>Why LaTeX?</h3>
+        <p>Unlike "What You See Is What You Get" (WYSIWYG) editors like Microsoft Word, LaTeX uses a markup language approach. This means you focus on the content and structure of your writing, while LaTeX handles the formatting and typography with mathematical precision.</p>
+        <p>Join us for a hands-on workshop where we demystify LaTeX, the gold standard for high-quality document preparation used by scientists, engineers, and researchers worldwide.</p>
+        <h3>What You Will Learn</h3>
+        <p>This workshop covers the essential building blocks to get you up and running:</p>
+            <ul>
+                <li><strong>The Big Picture:</strong> Understanding the TeX ecosystem and setting up your environment.</li>
+                <li><strong>Document Anatomy:</strong> Mastering the preamble, document classes, and the <code>\begin{document}</code> environment.</li>
+                <li><strong>Choosing Your Format:</strong> How to structure different document types including <strong>Articles</strong>, <strong>Books</strong>, and <strong>Reports</strong>.</li>
+                <li><strong>Typesetting Basics:</strong> Managing fonts, lists, sections, and special characters.</li>
+                <li><strong>Math Mode:</strong> Creating beautiful equations and formulas that look perfect every time.</li>
+                <li><strong>Graphics & Tables:</strong> How to insert images and build clean and professional tables.</li>
+                <li><strong>Automated Citations:</strong> A brief introduction to managing bibliographies with BibTeX.</li>
+                <li><strong>Dynamic Presentations:</strong> Using <strong>Beamer</strong> to create stunning slideshows and academic posters.</li>
+            </ul>
+
+    <hr>
+
+    <h3>Workshop Details</h3>
+    <ul>
+        <li><strong>Skill Level:</strong> Absolute Beginner.</li>
+        <li><strong>What to Bring:</strong> A laptop.</li>
+        <li><strong>Outcome:</strong> You will leave with a completed professional template and the confidence to start your next project in LaTeX.</li>
+    </ul>
+
+    <h3>Getting Ready: Setup & Distributions</h3>
+    <div class="setup-box">
+        <p>To get the most out of this workshop, please have a working LaTeX environment on your laptop. You have two main options:</p>
+        
+        <h4>Option A: The Cloud (Easiest)</h4>
+            <p>Create a free account at <a href="https://www.overleaf.com/" class="web-link" target="_blank">Overleaf.com</a>. No installation is   required, and you can access your work from any browser.</p>
+        <h4>Option B: Local Installation (Offline Use)</h4>
+            <p>If you prefer to work offline, install a TeX distribution based on your operating system:</p>
+            <ul>
+                <li><strong>Windows:</strong> Download <a href="https://miktex.org/" class="web-link" target="_blank">MiKTeX</a> or <a href="https://www.tug.org/texlive/" class="web-link" target="_blank">TeX Live</a>.</li>
+                <li><strong>Debian / Ubuntu / Mint:</strong> Use <code>sudo apt install texlive-full</code>.</li>
+                <li><strong>Red Hat / Fedora / AlmaLinux:</strong> Use <code>sudo dnf install texlive-scheme-full</code>.</li>
+                <li><strong>macOS:</strong> Download <a href="https://www.tug.org/mactex/" class="web-link" target="_blank">MacTeX</a>.</li>
+            </ul>
+        <!-- <p><em>Note: Local installations are large (2GB+), so please download and install them before arriving at the venue!</em></p> -->
+         <div class="tech-note">
+            <strong>Technical Tip:</strong><br>
+            Installing a full distribution (like <code>texlive-full</code>) ensures you have all necessary packages for the workshop without needing an internet connection during the sessions. These installations are large (~5GB), so please download and install them before arriving at the venue!
+        </div>
+    </div>
+
+    <blockquote>
+        "LaTeX is a tool that treats your document like a piece of art."
+    </blockquote>
+
+        <a href="https://github.com" class="btn">View My GitHub Profile</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Created by Oussama Houhou, LPTEA, Faculty of Sciences, University of Medea</p>
+    </footer>
+
+</body>
+</html>
